@@ -34,7 +34,7 @@ export default {
 .log-list {
   display: flex;
   flex-direction: column;
-  padding: 40rpx;
+  padding: 80rpx;
 }
 
 .log-item {
