@@ -1,6 +1,5 @@
 <template>
   <div class="container" @click="clickHandle('test click', $event)">
-
     <div class="userinfo" @click="bindViewTap">
       <img class="userinfo-avatar" v-if="userInfo.avatarUrl" :src="userInfo.avatarUrl" background-size="cover" />
       <div class="userinfo-nickname">
@@ -20,6 +19,9 @@
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
     <a href="/pages/counter/main" class="counter">去往tmdd示例页面</a>
+    <a href="/pages/logs/main" class="">查看日志</a>
+    <a href="/pages/first/main" class="">fisrt</a>
+    <a href="/pages/second/main" class="counter">second</a>
   </div>
 </template>
 
