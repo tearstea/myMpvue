@@ -1,3 +1,8 @@
 {
-  "navigationBarTitleText": "2"
+  "navigationBarTitleText": "2",
+  "usingComponents": {
+    "i-button": "/static/iView/button/index",
+    "i-spin": "/static/iView/spin/index"
+  }
+
 }

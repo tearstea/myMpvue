@@ -12,6 +12,10 @@
     "navigationBarTextStyle": "black",
     "backgroundTextStyle": "dark",
     "backgroundColor": "#CF6EC2", 
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": true,
+    "usingComponents": {
+      "i-card": "/static/iView/card/index"
+    }
+  
   }
 }
